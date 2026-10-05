@@ -1,5 +1,6 @@
 'use client';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/fire-web-app' : '';
 import React, { useState } from 'react';
 import {
   MessageCircle,
@@ -76,11 +77,10 @@ export const Catalogue: React.FC = () => {
               <button
                 key={key}
                 onClick={() => handleTabChange(key)}
-                className={`px-4 py-2 rounded-full text-xs md:text-sm font-semibold transition-all ${
-                  isActive
-                    ? 'text-white gradient-crimson shadow-elegant scale-[1.02]'
-                    : 'bg-white text-slate-700 border border-slate-200 hover:border-slate-300 hover:bg-slate-50'
-                }`}
+                className={`px-4 py-2 rounded-full text-xs md:text-sm font-semibold transition-all ${isActive
+                  ? 'text-white gradient-crimson shadow-elegant scale-[1.02]'
+                  : 'bg-white text-slate-700 border border-slate-200 hover:border-slate-300 hover:bg-slate-50'
+                  }`}
               >
                 {prod.label}
               </button>
@@ -91,7 +91,7 @@ export const Catalogue: React.FC = () => {
         {/* Active Product Panel */}
         <div className="mt-8 rounded-3xl bg-white border border-slate-200/90 shadow-card p-6 sm:p-8 md:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Visual Showcase Box */}
-         <div className="lg:col-span-5 bg-white border border-slate-200 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden">
+          <div className="lg:col-span-5 bg-white border border-slate-200 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden">
             {/* Tag badge */}
             <div
               className="absolute top-4 left-4 px-3 py-1 text-xs font-bold rounded-full text-white shadow-sm"
@@ -103,7 +103,11 @@ export const Catalogue: React.FC = () => {
             {/* Direct Product Image Display */}
             <div className="relative w-full h-full flex items-center justify-center py-4">
               <img
-                src={currentVariant.img || `/images/${activeTab.toLowerCase()}.jpg`}
+                src={
+                  currentVariant.img
+                    ? `${basePath}${currentVariant.img}`
+                    : `${basePath}/images/${activeTab.toLowerCase()}.jpg`
+                }
                 alt={currentVariant.title || currentProduct.title}
                 className="max-h-64 sm:max-h-80 w-auto object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105"
                 onError={(e) => {
@@ -145,11 +149,10 @@ export const Catalogue: React.FC = () => {
                     <button
                       key={v.size}
                       onClick={() => setActiveVariantSize(v.size)}
-                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
-                        isVarActive
-                          ? 'bg-red-600 text-white shadow-md'
-                          : 'bg-slate-100 hover:bg-slate-200 text-slate-800'
-                      }`}
+                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${isVarActive
+                        ? 'bg-red-600 text-white shadow-md'
+                        : 'bg-slate-100 hover:bg-slate-200 text-slate-800'
+                        }`}
                     >
                       {v.size}
                     </button>
