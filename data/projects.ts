@@ -18,7 +18,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Audit Pass Rate',
     },
     bgGradient: 'from-amber-700 to-red-900',
-    imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-factory.jpg',
   },
   {
     id: 'meezan',
@@ -37,7 +37,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Civil Rating',
     },
     bgGradient: 'from-slate-700 to-slate-900',
-    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-office.jpg',
   },
   {
     id: 'beaconhouse',
@@ -56,7 +56,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Certified',
     },
     bgGradient: 'from-blue-700 to-indigo-900',
-    imageUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-school.jpg',
   },
   {
     id: 'oceanmall',
@@ -75,7 +75,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Standard',
     },
     bgGradient: 'from-purple-800 to-violet-950',
-    imageUrl: 'https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-alarm.jpg',
   },
   {
     id: 'datacore',
@@ -94,7 +94,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Gold Cert',
     },
     bgGradient: 'from-cyan-800 to-sky-950',
-    imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-suppression.jpg',
   },
   {
     id: 'landhi',
@@ -113,6 +113,6 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Standard',
     },
     bgGradient: 'from-red-800 to-stone-900',
-    imageUrl: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'images/project-hydrant.jpg',
   },
 ];

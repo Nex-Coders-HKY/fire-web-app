@@ -92,7 +92,7 @@ export const Catalogue: React.FC = () => {
         {/* Active Product Panel */}
         <div className="mt-8 rounded-3xl bg-white border border-slate-200/90 shadow-card p-6 sm:p-8 md:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Visual Showcase Box */}
-          <div className="lg:col-span-5 bg-gradient-to-b from-slate-50 to-slate-100/70 border border-slate-200/80 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden">
+         <div className="lg:col-span-5 bg-white border border-slate-200 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden">
             {/* Tag badge */}
             <div
               className="absolute top-4 left-4 px-3 py-1 text-xs font-bold rounded-full text-white shadow-sm"
@@ -106,7 +106,7 @@ export const Catalogue: React.FC = () => {
               <img
                 src={currentVariant.img || `/images/${activeTab.toLowerCase()}.jpg`}
                 alt={currentVariant.title || currentProduct.title}
-                className="max-h-64 sm:max-h-80 w-auto object-contain drop-shadow-xl transition-transform duration-300 hover:scale-105"
+                className="max-h-64 sm:max-h-80 w-auto object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105"
                 onError={(e) => {
                   const target = e.currentTarget;
                   target.style.display = 'none';

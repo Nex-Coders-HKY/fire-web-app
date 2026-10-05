@@ -390,7 +390,7 @@ const Catalogue = ()=>{
                     className: "mt-8 rounded-3xl bg-white border border-slate-200/90 shadow-card p-6 sm:p-8 md:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "lg:col-span-5 bg-gradient-to-b from-slate-50 to-slate-100/70 border border-slate-200/80 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden",
+                            className: "lg:col-span-5 bg-white border border-slate-200 rounded-2xl relative min-h-[300px] md:min-h-[380px] flex items-center justify-center p-6 overflow-hidden",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute top-4 left-4 px-3 py-1 text-xs font-bold rounded-full text-white shadow-sm",
@@ -409,7 +409,7 @@ const Catalogue = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: currentVariant.img || `/images/${activeTab.toLowerCase()}.jpg`,
                                             alt: currentVariant.title || currentProduct.title,
-                                            className: "max-h-64 sm:max-h-80 w-auto object-contain drop-shadow-xl transition-transform duration-300 hover:scale-105",
+                                            className: "max-h-64 sm:max-h-80 w-auto object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105",
                                             onError: (e)=>{
                                                 const target = e.currentTarget;
                                                 target.style.display = 'none';
@@ -471,7 +471,7 @@ const Catalogue = ()=>{
                         }, void 0, true, {
                             fileName: "[project]/components/Catalogue.tsx",
                             lineNumber: 95,
-                            columnNumber: 11
+                            columnNumber: 10
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "lg:col-span-7 space-y-6",
@@ -7333,7 +7333,7 @@ const projectsData = [
             lbl3: 'Audit Pass Rate'
         },
         bgGradient: 'from-amber-700 to-red-900',
-        imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-factory.jpg'
     },
     {
         id: 'meezan',
@@ -7352,7 +7352,7 @@ const projectsData = [
             lbl3: 'Civil Rating'
         },
         bgGradient: 'from-slate-700 to-slate-900',
-        imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-office.jpg'
     },
     {
         id: 'beaconhouse',
@@ -7371,7 +7371,7 @@ const projectsData = [
             lbl3: 'Certified'
         },
         bgGradient: 'from-blue-700 to-indigo-900',
-        imageUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-school.jpg'
     },
     {
         id: 'oceanmall',
@@ -7390,7 +7390,7 @@ const projectsData = [
             lbl3: 'Standard'
         },
         bgGradient: 'from-purple-800 to-violet-950',
-        imageUrl: 'https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-alarm.jpg'
     },
     {
         id: 'datacore',
@@ -7409,7 +7409,7 @@ const projectsData = [
             lbl3: 'Gold Cert'
         },
         bgGradient: 'from-cyan-800 to-sky-950',
-        imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-suppression.jpg'
     },
     {
         id: 'landhi',
@@ -7428,7 +7428,7 @@ const projectsData = [
             lbl3: 'Standard'
         },
         bgGradient: 'from-red-800 to-stone-900',
-        imageUrl: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80'
+        imageUrl: 'images/project-hydrant.jpg'
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
