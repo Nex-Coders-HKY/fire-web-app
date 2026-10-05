@@ -33,7 +33,7 @@ export const Catalogue: React.FC = () => {
     currentProduct.variants[0];
 
   const waMessage = `Hi, I am interested in: ${currentVariant?.title || currentProduct.title} (${currentProduct.variantLabel}: ${activeVariantSize}). Please share details and pricing for our Karachi facility.`;
-  const waUrl = `https://wa.me/923121046529?text=${encodeURIComponent(waMessage)}`;
+  const waUrl = `https://wa.me/923452072882?text=${encodeURIComponent(waMessage)}`;
 
   const getSpecIcon = (index: number) => {
     switch (index) {

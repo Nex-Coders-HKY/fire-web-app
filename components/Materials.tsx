@@ -54,7 +54,7 @@ export const Materials: React.FC = () => {
             </p>
           </div>
           <a
-            href="https://wa.me/923121046529?text=Hi%2C%20I%20need%20to%20order%20fire%20safety%20materials%20and%20accessories."
+            href="https://wa.me/923452072882?text=Hi%2C%20I%20need%20to%20order%20fire%20safety%20materials%20and%20accessories."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 text-xs sm:text-sm font-bold text-white gradient-crimson rounded-xl shadow-sm self-start md:self-end"
@@ -87,7 +87,7 @@ export const Materials: React.FC = () => {
 
               <div className="mt-4 pt-3 border-t border-slate-100">
                 <a
-                  href={`https://wa.me/923121046529?text=${encodeURIComponent(
+                  href={`https://wa.me/923452072882?text=${encodeURIComponent(
                     `Hi, I want to inquire about availability and pricing for: ${item.name} (${item.note}).`
                   )}`}
                   target="_blank"

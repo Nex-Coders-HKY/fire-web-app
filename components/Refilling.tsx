@@ -100,7 +100,7 @@ export const Refilling: React.FC = () => {
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-3 pt-3">
               <a
-                href="https://wa.me/923121046529?text=Hi%2C%20I%20need%20my%20fire%20extinguisher(s)%20refilled%2Fserviced.%20Please%20share%20details."
+                href="https://wa.me/923452072882?text=Hi%2C%20I%20need%20my%20fire%20extinguisher(s)%20refilled%2Fserviced.%20Please%20share%20details."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-bold text-white gradient-crimson rounded-xl shadow-elegant hover:opacity-95 transition-all"

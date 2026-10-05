@@ -140,7 +140,7 @@ export const Guidance: React.FC<GuidanceProps> = ({ onSelectCategory }) => {
             </div>
           </div>
           <a
-            href="https://wa.me/923121046529?text=Hi%2C%20I%20need%20guidance%20on%20choosing%20the%20right%20fire%20extinguishers%20for%20my%20site."
+            href="https://wa.me/923452072882?text=Hi%2C%20I%20need%20guidance%20on%20choosing%20the%20right%20fire%20extinguishers%20for%20my%20site."
             target="_blank"
             rel="noreferrer"
             className="w-full sm:w-auto text-center px-4 py-2.5 text-xs font-bold text-slate-900 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors whitespace-nowrap"

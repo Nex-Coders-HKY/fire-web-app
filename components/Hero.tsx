@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
               </a>
 
               <a
-                href="https://wa.me/923121046529?text=Hi%20FireProtectSafety%2C%20I%20need%20a%20fire%20safety%20quote%20for%20our%20Karachi%20site."
+                href="https://wa.me/923452072882?text=Hi%20FireProtectSafety%2C%20I%20need%20a%20fire%20safety%20quote%20for%20our%20Karachi%20site."
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-3.5 text-sm font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-xl transition-colors active:scale-95"

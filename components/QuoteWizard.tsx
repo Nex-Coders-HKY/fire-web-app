@@ -100,7 +100,7 @@ export const QuoteWizard: React.FC = () => {
     setIsSubmitting(true);
 
     const waText = encodeURIComponent(buildWhatsAppMessage());
-    const waUrl = `https://wa.me/923121046529?text=${waText}`;
+    const waUrl = `https://wa.me/923452072882?text=${waText}`;
 
     try {
       await fetch('https://api.web3forms.com/submit', {
@@ -185,8 +185,8 @@ export const QuoteWizard: React.FC = () => {
 
             <div className="p-4 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300">
               Direct Emergency Hotline:{' '}
-              <a href="tel:+923121046529" className="text-red-400 font-bold underline ml-1">
-                +92 312 1046529
+              <a href="tel:+923452072882" className="text-red-400 font-bold underline ml-1">
+                +92 345 2072882
               </a>
             </div>
           </div>
@@ -210,7 +210,7 @@ export const QuoteWizard: React.FC = () => {
 
                 <div className="pt-4 flex flex-wrap justify-center gap-3">
                   <a
-                    href="https://wa.me/923121046529"
+                    href="https://wa.me/923452072882"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl gradient-crimson text-white text-xs sm:text-sm font-bold shadow-elegant"

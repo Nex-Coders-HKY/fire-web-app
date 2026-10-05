@@ -120,7 +120,7 @@ export const Reviews: React.FC = () => {
             </p>
           </div>
           <a
-            href="https://wa.me/923121046529?text=Hi%2C%20I%27d%20like%20to%20share%20a%20review%20of%20my%20experience%20with%20SafetyPro%20Fire%20Systems%3A%0A%0ARating%20(1-5%20stars)%3A%20%0AMy%20review%3A%20"
+            href="https://wa.me/923452072882?text=Hi%2C%20I%27d%20like%20to%20share%20a%20review%20of%20my%20experience%20with%20SafetyPro%20Fire%20Systems%3A%0A%0ARating%20(1-5%20stars)%3A%20%0AMy%20review%3A%20"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-5 py-3 text-xs sm:text-sm font-bold text-white gradient-crimson rounded-xl shadow-elegant hover:opacity-95 whitespace-nowrap transition-all"

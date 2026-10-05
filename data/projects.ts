@@ -1,4 +1,10 @@
 import { ProjectItem } from '../types';
+import alkaram from '../public/images/project-factory.jpg';
+import meezan from '../public/images/project-office.jpg';
+import beaconhouse from '../public/images/project-school.jpg';
+import oceanmall from '../public/images/project-alarm.jpg';
+import datacore from '../public/images/project-suppression.jpg';
+import landhi from '../public/images/project-hydrant.jpg';
 
 export const projectsData: ProjectItem[] = [
   {
@@ -18,7 +24,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Audit Pass Rate',
     },
     bgGradient: 'from-amber-700 to-red-900',
-    imageUrl: 'images/project-factory.jpg',
+    imageUrl: alkaram.src,
   },
   {
     id: 'meezan',
@@ -37,7 +43,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Civil Rating',
     },
     bgGradient: 'from-slate-700 to-slate-900',
-    imageUrl: 'images/project-office.jpg',
+    imageUrl: meezan.src,
   },
   {
     id: 'beaconhouse',
@@ -56,7 +62,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Certified',
     },
     bgGradient: 'from-blue-700 to-indigo-900',
-    imageUrl: 'images/project-school.jpg',
+    imageUrl: beaconhouse.src,
   },
   {
     id: 'oceanmall',
@@ -75,7 +81,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Standard',
     },
     bgGradient: 'from-purple-800 to-violet-950',
-    imageUrl: 'images/project-alarm.jpg',
+    imageUrl: oceanmall.src,
   },
   {
     id: 'datacore',
@@ -94,7 +100,7 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Gold Cert',
     },
     bgGradient: 'from-cyan-800 to-sky-950',
-    imageUrl: 'images/project-suppression.jpg',
+    imageUrl: datacore.src,
   },
   {
     id: 'landhi',
@@ -113,6 +119,6 @@ export const projectsData: ProjectItem[] = [
       lbl3: 'Standard',
     },
     bgGradient: 'from-red-800 to-stone-900',
-    imageUrl: 'images/project-hydrant.jpg',
+    imageUrl: landhi.src,
   },
 ];

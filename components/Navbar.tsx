@@ -111,12 +111,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote }) => {
             <div className="flex items-center gap-2 sm:gap-3">
               {/* Emergency Call Button (Tablets & Desktop) */}
               <a
-                href="tel:+923121046529"
+                href="tel:+923452072882"
                 className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors shrink-0"
                 title="24/7 Fire Safety Emergency Line"
               >
                 <PhoneCall className="w-3.5 h-3.5 text-red-600 shrink-0" />
-                <span>0312 1046529</span>
+                <span>+92 345 2072882</span>
               </a>
 
               {/* Get Quote CTA */}
@@ -180,14 +180,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote }) => {
               {/* Direct Phone & WhatsApp Action Bar */}
               <div className="grid grid-cols-2 gap-2">
                 <a
-                  href="tel:+923121046529"
+                  href="tel:+923452072882"
                   className="flex items-center justify-center gap-2 py-2.5 px-3 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors active:scale-95"
                 >
                   <PhoneCall className="w-4 h-4 text-red-600 shrink-0" />
                   <span>Call Emergency</span>
                 </a>
                 <a
-                  href="https://wa.me/923121046529?text=Hi%20FireProtectSafety%2C%20I%20need%20a%20fire%20safety%20quote%20for%20our%20site."
+                  href="https://wa.me/923452072882?text=Hi%20FireProtectSafety%2C%20I%20need%20a%20fire%20safety%20quote%20for%20our%20site."
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 py-2.5 px-3 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors border border-emerald-200/80 active:scale-95"
