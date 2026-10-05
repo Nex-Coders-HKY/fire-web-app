@@ -22,9 +22,9 @@ export default function HomePage() {
       <main className="flex-1">
         <OwnerProfile />
         <Hero />
+        <Projects />  
         <Guidance />
         <Catalogue />
-        <Projects />
         <Refilling />
         <Materials />
         <Reviews />
