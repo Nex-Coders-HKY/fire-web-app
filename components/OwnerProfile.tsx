@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ownerimg from "../public/images/image.jpeg";
 import { Mail, Phone, MapPin, MessageSquare, Award } from "lucide-react";
 
 export default function OwnerProfile() {
@@ -12,7 +13,7 @@ export default function OwnerProfile() {
           <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden border-2 border-slate-700 bg-slate-800">
             {/* Owner Image */}
             <Image
-              src="/images/image.jpeg" // Place your owner photo in public/images/
+              src={ownerimg}
               alt="Owner Profile"
               fill
               className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
