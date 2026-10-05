@@ -255,70 +255,6 @@ export const productData: Record<string, ProductItem> = {
       },
     ],
   },
-  Materials: {
-    id: 'Materials',
-    label: 'Safety Materials',
-    tag: 'Hardware & Accessories',
-    color: '#ea580c',
-    title: 'Fire Safety Hardware & Compliance Accessories',
-    desc: 'Full suite of safety peripherals, certification tags, mounting brackets, cabinets, exit signage, and certified refill chemicals.',
-    variantLabel: 'Material Type',
-    specs: [
-      ['Compliance', 'PSQCA & Civil Defence'],
-      ['Durability', 'Heavy-Duty Industrial'],
-      ['Standard', 'NFPA 10 & NFPA 101'],
-    ],
-    variants: [
-      {
-        size: 'Fire Blanket',
-        title: 'Woven Fiberglass Fire Blanket',
-        desc: 'Quick-release fire-retardant blanket (1.2m x 1.8m) for smothering kitchen pan fires or wrapping clothing fire victims.',
-        img: '/images/Fire-Blanket.jpg',
-      },
-      {
-        size: 'Fire Hose',
-        title: 'Synthetic Canvas Delivery Hose',
-        desc: 'High-burst-pressure canvas fire hose with instant BS336 instantaneous couplings for hydrants.',
-        img: '/images/Fire-Hose.jpg',
-      },
-      {
-        size: 'Brackets & Stands',
-        title: 'Extinguisher Wall Brackets & Tubular Floor Stands',
-        desc: 'Corrosion-resistant steel brackets and free-standing tubular floor stands for marble or glass partitions.',
-        img: '/images/Brackets.jpg',
-      },
-      {
-        size: 'Safety Signage',
-        title: 'Photoluminescent Glow-in-the-Dark Safety Signage',
-        desc: 'NFPA compliant emergency exit signs, call point signs, and extinguisher operation diagrams.',
-        img: '/images/Safety-Signage.jpg',
-      },
-      {
-        size: 'Extinguisher Cabinets',
-        title: 'Weatherproof Red Epoxy Extinguisher Cabinets',
-        desc: 'Indoor wall-recessed and weatherproof outdoor steel cabinets with break-glass lock protection.',
-        img: '/images/Extinguisher-Cabinets.jpg',
-      },
-      {
-        size: 'Pressure Gauges',
-        title: 'Brass Bourdon Tube Replacement Gauges',
-        desc: 'Accurate color-zoned pressure dials (Recharge / Operating / Overcharged) for all stored-pressure units.',
-        img: '/images/Pressure-Gauges.jpg',
-      },
-      {
-        size: 'Seals & Safety Pins',
-        title: 'Tamper-Evident Security Seals & Steel Pull Pins',
-        desc: 'Colored numbered inspection tags and pull-pins replaced at every scheduled maintenance interval.',
-        img: '/images/Seals-Pins.jpg',
-      },
-      {
-        size: 'Stands',
-        title: 'Chrome Tubular Free-Standing Floor Stands',
-        desc: 'Sleek single and double extinguisher floor stands for luxury lobbies and glass showrooms.',
-        img: '/images/Stands.jpg',
-      },
-    ],
-  },
 };
 
 export const tabOrder = [
@@ -330,5 +266,4 @@ export const tabOrder = [
   'Alarm',
   'Suppression',
   'Hydrant',
-  'Materials',
 ];

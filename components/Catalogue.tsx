@@ -12,7 +12,6 @@ import {
   Info,
 } from 'lucide-react';
 import { productData, tabOrder } from '../data/products';
-import { ProductVisual } from './ProductVisual';
 
 export const Catalogue: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('DCP');
@@ -114,14 +113,6 @@ export const Catalogue: React.FC = () => {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               />
-              <div className="product-fallback hidden items-center justify-center w-full h-full">
-                <ProductVisual
-                  category={activeTab}
-                  variantSize={activeVariantSize}
-                  color={currentProduct.color}
-                  altText={currentVariant.title || currentProduct.title}
-                />
-              </div>
             </div>
 
             {/* Certification watermarks */}
