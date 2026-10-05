@@ -35,7 +35,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       >
         {!imgError ? (
           <img
-            src="/Logo.png"
+            src="images/Logo.png"
             alt="FireProtectSafety Logo"
             className="w-full h-full object-cover"
             onError={() => setImgError(true)}

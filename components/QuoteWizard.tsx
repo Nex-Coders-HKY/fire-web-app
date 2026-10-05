@@ -143,7 +143,7 @@ export const QuoteWizard: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border border-red-500/50 shrink-0">
-                <img src="/Logo.png" alt="FireProtectSafety Logo" className="w-full h-full object-cover" />
+                <img src="images/Logo.png" alt="FireProtectSafety Logo" className="w-full h-full object-cover" />
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 border border-red-500/30 text-red-400 text-xs font-bold uppercase tracking-wider">
                 <Sparkles className="w-3.5 h-3.5" />

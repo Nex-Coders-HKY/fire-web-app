@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-red-600/40 shrink-0 bg-slate-900">
                 <img
-                  src="/Logo.png"
+                  src="images/Logo.png"
                   alt="FireProtectSafety Logo"
                   className="w-full h-full object-cover"
                 />

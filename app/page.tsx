@@ -11,7 +11,7 @@ import { Materials } from '@/components/Materials';
 import { Reviews } from '@/components/Reviews';
 import { QuoteWizard } from '@/components/QuoteWizard';
 import { Footer } from '@/components/Footer';
-
+import OwnerProfile from '@/components/OwnerProfile';
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-900 selection:bg-red-500 selection:text-white">
@@ -20,6 +20,7 @@ export default function HomePage() {
 
       {/* Main Content Area */}
       <main className="flex-1">
+        <OwnerProfile />
         <Hero />
         <Guidance />
         <Catalogue />
