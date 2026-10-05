@@ -94,10 +94,10 @@ export const Footer: React.FC = () => {
                 <div>
                   <div className="text-xs text-slate-400">Emergency Desk & WhatsApp</div>
                   <a
-                    href="tel:+923121046529"
+                    href="tel:+923452072882"
                     className="font-bold text-white hover:text-red-400 transition-colors"
                   >
-                    +92 312 1046529
+                    +92 345 2072882
                   </a>
                 </div>
               </li>
@@ -109,10 +109,10 @@ export const Footer: React.FC = () => {
                 <div>
                   <div className="text-xs text-slate-400">Corporate Quotations</div>
                   <a
-                    href="mailto:hello@fireprotectsafety.pk"
+                    href="mailto:fireprotectsafty@gmail.com"
                     className="font-bold text-white hover:text-red-400 transition-colors"
                   >
-                    hello@fireprotectsafety.pk
+                    fireprotectsafty@gmail.com
                   </a>
                 </div>
               </li>

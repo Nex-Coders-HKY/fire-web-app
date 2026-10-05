@@ -931,9 +931,9 @@ const Footer = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "tel:+923121046529",
+                                                            href: "tel:+923452072882",
                                                             className: "font-bold text-white hover:text-red-400 transition-colors",
-                                                            children: "+92 312 1046529"
+                                                            children: "+92 345 2072882"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
                                                             lineNumber: 96,
@@ -979,9 +979,9 @@ const Footer = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "mailto:hello@fireprotectsafety.pk",
+                                                            href: "mailto:fireprotectsafty@gmail.com",
                                                             className: "font-bold text-white hover:text-red-400 transition-colors",
-                                                            children: "hello@fireprotectsafety.pk"
+                                                            children: "fireprotectsafty@gmail.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
                                                             lineNumber: 111,
