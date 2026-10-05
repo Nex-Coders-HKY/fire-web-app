@@ -105,8 +105,8 @@ export const Catalogue: React.FC = () => {
               <img
                 src={
                   currentVariant.img
-                    ? `${basePath}${currentVariant.img}`
-                    : `${basePath}/images/${activeTab.toLowerCase()}.jpg`
+                    ? currentVariant.img.replace(/^\/?images\//, '').replace(/^\//, '')
+                    : `${activeTab.toLowerCase()}.jpg`
                 }
                 alt={currentVariant.title || currentProduct.title}
                 className="max-h-64 sm:max-h-80 w-auto object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105"
