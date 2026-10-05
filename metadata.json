@@ -1,0 +1,9 @@
+{
+  "name": "FireProtectSafety",
+  "description": "FireProtectSafety - Certified fire safety, fire extinguishers & suppression systems supplier and maintenance across Karachi, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+

@@ -1,0 +1,270 @@
+import { ProductItem } from '../types';
+
+
+export const productData: Record<string, ProductItem> = {
+  DCP: {
+    id: 'DCP',
+    label: 'Dry Chemical (DCP)',
+    tag: 'Class A B C',
+    color: '#d97706',
+    title: 'Dry Chemical Powder Extinguisher',
+    desc: 'Universal Dry Chemical Powder — the workhorse of every facility. Effective against Class A, B, and C fires involving wood, flammable liquids, and energized electrical hazards.',
+    variantLabel: 'Capacity',
+    specs: [
+      ['Fire Rating', '21A 144B'],
+      ['Operating Temp', '-30°C to +60°C'],
+      ['Discharge Time', '22s'],
+    ],
+    variants: [
+      {
+        size: '1kg',
+        title: 'Compact DCP Extinguisher (1kg)',
+        desc: 'Ultra-portable entry-level unit engineered for vehicles, personal transport, and compact residential spaces.',
+        img: '/dcp-1kg.jpg',
+      },
+      {
+        size: '2kg',
+        title: 'Compact DCP Extinguisher (2kg)',
+        desc: 'Lightweight unit for cars, small shops, kitchens, and homes — light enough for fast emergency handling.',
+        img: '/dcp-2kg.jpg',
+      },
+      {
+        size: '4kg',
+        title: 'Small DCP Extinguisher (4kg)',
+        desc: 'A solid all-rounder for small corporate offices, retail counters, and light fabrication workshops.',
+        img: '/dcp-4kg.jpg',
+      },
+      {
+        size: '6kg',
+        title: 'Standard DCP Extinguisher (6kg)',
+        desc: 'Our most-installed size — the benchmark choice for corridors, factory floors, and stairwells in compliance audits.',
+        img: '/dcp-6kg.jpg',
+      },
+    ],
+  },
+  CO2: {
+    id: 'CO2',
+    label: 'CO₂ Gas',
+    tag: 'Class B / E',
+    color: '#1e293b',
+    title: 'CO₂ Fire Extinguisher',
+    desc: 'Clean, non-conductive, residue-free carbon dioxide gas — specifically designed to protect server racks, electrical panels, and delicate electronics without water damage.',
+    variantLabel: 'Capacity',
+    specs: [
+      ['Fire Rating', '34B / E'],
+      ['Operating Temp', '-20°C to +60°C'],
+      ['Discharge Time', '18s'],
+    ],
+    variants: [
+      {
+        size: '5 kg',
+        title: 'Heavy-Duty CO₂ Extinguisher (5 kg)',
+        desc: 'Weighs roughly 12 kg to 17 kg total. Standard option for data centres, server rooms, control rooms, and electrical distribution rooms.',
+        img: '/co2-5kg.jpg',
+      },
+      {
+        size: '25 kg',
+        title: 'Wheeled Industrial CO₂ Extinguisher (25 kg)',
+        desc: 'Heavy-duty steel cylinder on a mobile trolley built for industrial sub-stations and high-risk chemical storage facilities.',
+        img: '/co2-25kg.jpg',
+      },
+      {
+        size: '50 kg',
+        title: 'High-Capacity Wheeled CO₂ (50 kg)',
+        desc: 'Large wheeled unit designed for heavy industrial sites, petrochemical facilities, and warehouses where high-volume clean discharge is vital.',
+        img: '/co2-50kg.jpg',
+      },
+    ],
+  },
+  AFFF: {
+    id: 'AFFF',
+    label: 'AFFF Foam',
+    tag: 'Class A & B',
+    color: '#2563eb',
+    title: 'AFFF Foam Extinguisher',
+    desc: 'Highly effective aqueous film-forming foam that rapidly smothers combustible fires and blankets flammable liquid spills, cutting oxygen and cooling vapors.',
+    variantLabel: 'Capacity',
+    specs: [
+      ['Fire Rating', '21A 233B'],
+      ['Operating Temp', '+5°C to +60°C'],
+      ['Discharge Time', '20s - 38s'],
+    ],
+    variants: [
+      {
+        size: '6L',
+        title: 'Standard AFFF Foam Extinguisher (6L)',
+        desc: 'Strong balance between high firefighting capacity and a manageable weight for commercial offices, workshops, and educational facilities.',
+        img: '/afff-6l.jpg',
+      },
+      {
+        size: '9L',
+        title: 'Heavy-Duty AFFF Extinguisher (9L)',
+        desc: 'High-volume reserve for petrol station forecourts, chemical warehouses, commercial paint booths, and oil transfer stations.',
+        img: '/afff-9l.jpg',
+      },
+    ],
+  },
+  Wet: {
+    id: 'Wet',
+    label: 'Wet Chemical',
+    tag: 'Class F / K',
+    color: '#059669',
+    title: 'Wet Chemical Fire Extinguisher',
+    desc: 'Specialized potassium salt solution that reacts with burning cooking fats and oils through saponification, forming a thick cooling soapy blanket that prevents re-ignition.',
+    variantLabel: 'Capacity',
+    specs: [
+      ['Fire Rating', '25F'],
+      ['Operating Temp', '+5°C to +60°C'],
+      ['Discharge Time', '50s'],
+    ],
+    variants: [
+      {
+        size: '3L',
+        title: 'Compact Wet Chemical Extinguisher (3L)',
+        desc: 'Specialized compact unit for small kitchenettes, food trucks, and office pantries with domestic fryers.',
+        img: '/wet-3l.jpg',
+      },
+      {
+        size: '6L',
+        title: 'Standard Wet Chemical Extinguisher (6L)',
+        desc: 'Ideal for hotel kitchens, restaurant deep fryers, and commercial cafeteria lines with multiple cooking stations.',
+        img: '/wet-6l.jpg',
+      },
+      {
+        size: '9L',
+        title: 'Heavy-Duty Wet Chemical Extinguisher (9L)',
+        desc: 'Higher-capacity unit designed for large industrial kitchens, catering hubs, food processing units, and high-turnover frying setups.',
+        img: '/wet-9l.jpg',
+      },
+    ],
+  },
+  Water: {
+    id: 'Water',
+    label: 'Water',
+    tag: 'Class A',
+    color: '#0284c7',
+    title: 'Water Fire Extinguisher',
+    desc: 'Cost-effective, rapid-cooling extinguisher delivering targeted water stream directly to deep-seated Class A fires involving wood, textiles, paper, and carton packaging.',
+    variantLabel: 'Capacity',
+    specs: [
+      ['Fire Rating', '13A'],
+      ['Operating Temp', '+5°C to +60°C'],
+      ['Discharge Time', '55s'],
+    ],
+    variants: [
+      {
+        size: '9L',
+        title: 'Heavy-Duty Water Extinguisher (9L)',
+        desc: 'Deep penetration unit for warehouses, textile storage, print shops, and timber facilities where water-only suppression is mandated.',
+        img: '/water-9l.jpg',
+      },
+    ],
+  },
+  Alarm: {
+    id: 'Alarm',
+    label: 'Fire Alarm System',
+    tag: 'Detection & Warning',
+    color: '#7c3aed',
+    title: 'Commercial Fire Alarm System',
+    desc: 'Comprehensive conventional and intelligent addressable fire detection solutions including optical smoke sensors, rate-of-rise heat sensors, manual call points, and horn strobes.',
+    variantLabel: 'System Type',
+    specs: [
+      ['Coverage', 'Zone & Point-based'],
+      ['Response', 'Sub-second real-time'],
+      ['Standard', 'NFPA 72 compliant'],
+    ],
+    variants: [
+      {
+        size: 'Conventional Panel',
+        title: 'Conventional Fire Alarm Panel',
+        desc: 'Zone-wired panel system offering rock-solid, cost-effective detection for single-floor offices, clinics, retail shops, and warehouses.',
+        img: '/conventional-alarm.jpg',
+      },
+      {
+        size: 'Addressable Panel',
+        title: 'Intelligent Addressable Alarm Panel',
+        desc: 'Pinpoints the exact sensor location that triggered. Ideal for multi-story corporate towers, shopping malls, universities, and industrial parks.',
+        img: '/addressable-alarm.jpg',
+      },
+    ],
+  },
+  Suppression: {
+    id: 'Suppression',
+    label: 'Suppression System',
+    tag: 'Automated Protection',
+    color: '#0891b2',
+    title: 'Automated Fire Suppression System',
+    desc: 'Fully autonomous gas and chemical suppression systems that detect thermal spikes and flood enclosed enclosures within seconds without human intervention.',
+    variantLabel: 'System Type',
+    specs: [
+      ['Coverage', 'Enclosed Room / Hood'],
+      ['Discharge', 'Under 10 Seconds'],
+      ['Standard', 'NFPA 2001 & NFPA 96'],
+    ],
+    variants: [
+      {
+        size: 'Kitchen (Wet Chemical)',
+        title: 'Commercial Kitchen Hood Suppression',
+        desc: 'Pneumatic heat detection tubing mounted in exhaust hoods and ducting that releases wet chemical directly onto fryers the second a flame flashes.',
+        img: '/Kitchen-Fire-Suppression-System.jpg',
+      },
+      {
+        size: 'FM200 Gas System',
+        title: 'FM200 Clean-Agent Suppression System',
+        desc: 'Environmentally safe, human-safe clean-agent gas that extinguishes electrical room and server fires within 10 seconds without water, residue, or downtime.',
+        img: '/FM200-Gas-System.jpg',
+      },
+      {
+        size: 'CO2 Flooding System',
+        title: 'CO₂ Total Flooding Suppression System',
+        desc: 'Heavy industrial total-flooding CO₂ system for generator rooms, switchgear compartments, transformer bays, and heavy turbine enclosures.',
+        img: '/CO2-Flooding-System.jpg',
+      },
+    ],
+  },
+  Hydrant: {
+    id: 'Hydrant',
+    label: 'Hydrant & Pump',
+    tag: 'High-Volume Water',
+    color: '#dc2626',
+    title: 'Fire Hydrant & Sprinkler System',
+    desc: 'Robust civil defence grade firefighting infrastructure featuring external pillar hydrants, internal hose reels, dedicated booster pumps, and underground ring mains.',
+    variantLabel: 'System Type',
+    specs: [
+      ['Flow Rate', 'Per NFPA 24 Standard'],
+      ['Pressure', 'High Pressure Boosted'],
+      ['Standard', 'NFPA 14 / NFPA 24'],
+    ],
+    variants: [
+      {
+        size: 'Pillar Hydrant',
+        title: 'Heavy Cast Iron Pillar Hydrant',
+        desc: 'Outdoor high-flow standpipe connection point for municipal fire tenders and industrial fire brigades across large plots and factory compounds.',
+        img: '/Pillar-Hydrant.jpg',
+      },
+      {
+        size: 'Hose Reel',
+        title: 'Wall-Mount Swing Fire Hose Reel',
+        desc: 'Heavy-duty 30m high-pressure rubber hose reel on a smooth swing arm with adjustable jet/spray brass nozzle for swift first-line emergency containment.',
+        img: '/Hose-Reel.jpg',
+      },
+      {
+        size: 'Fire Pump Set',
+        title: 'Multi-Stage Diesel & Electric Fire Pump Set',
+        desc: 'High-capacity dual-power pump skid (electric motor + diesel engine backup + jockey pump) ensuring uninterrupted water pressure across hydrants.',
+        img: '/Fire-Pump-Set.jpg',
+      },
+    ],
+  },
+};
+
+export const tabOrder = [
+  'DCP',
+  'CO2',
+  'AFFF',
+  'Wet',
+  'Water',
+  'Alarm',
+  'Suppression',
+  'Hydrant',
+];

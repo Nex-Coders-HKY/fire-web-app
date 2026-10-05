@@ -1,0 +1,108 @@
+import { ReviewItem, MaterialItem } from '../types';
+
+export const reviewsData: ReviewItem[] = [
+  {
+    id: 'rev-1',
+    name: 'Ahmed Khan',
+    role: 'Operations Director, Al-Karam Textile Mills',
+    stars: 5,
+    text: 'SafetyPro is the most professional fire engineering team we have worked with in Karachi. They handled our entire factory suppression installation and our facility cleared the international buyer compliance audit on the first inspection.',
+    date: 'March 2026',
+    initials: 'AK',
+  },
+  {
+    id: 'rev-2',
+    name: 'Sana Farooq',
+    role: 'Facilities Manager, Meezan Corporate HQ',
+    stars: 5,
+    text: 'Quick response, neat aesthetic installation across all 14 corporate floors, and their annual maintenance contract gives our management true peace of mind. Highly recommended for corporate towers.',
+    date: 'January 2026',
+    initials: 'SF',
+  },
+  {
+    id: 'rev-3',
+    name: 'Tariq Mehmood',
+    role: 'Admin & Safety Officer, Beaconhouse Campus',
+    stars: 5,
+    text: 'Helped our campus become 100% PSQCA and Civil Defence compliant before the provincial education department safety review. Their team even organized an interactive emergency drill for our teachers and staff.',
+    date: 'November 2025',
+    initials: 'TM',
+  },
+  {
+    id: 'rev-4',
+    name: 'Zubair Qureshi',
+    role: 'Infrastructure Lead, DataCore Technologies',
+    stars: 5,
+    text: 'Installed the FM200 gaseous clean agent system for our Tier-3 server rooms. Zero downtime during deployment, spotless cabling and pipework, and test calibrations were documented thoroughly.',
+    date: 'February 2026',
+    initials: 'ZQ',
+  },
+  {
+    id: 'rev-5',
+    name: 'Bilal Siddiqui',
+    role: 'Plant Engineer, Landhi Industrial Complex',
+    stars: 5,
+    text: 'Fast refill service and hydro-testing for our 60+ DCP and CO2 extinguishers. They collected from our factory gate, serviced them to spec with dated test certificates, and delivered them back within 48 hours.',
+    date: 'April 2026',
+    initials: 'BS',
+  },
+];
+
+export const materialsData: MaterialItem[] = [
+  {
+    id: 'mat-1',
+    name: 'Fire Blankets',
+    note: '1.2m x 1.8m quick-release fiberglass',
+    tag: 'Quick Response',
+    iconName: 'Shield',
+  },
+  {
+    id: 'mat-2',
+    name: 'Canvas Fire Hoses',
+    note: 'Instant BS336 brass alloy couplings',
+    tag: 'Hydrant Grade',
+    iconName: 'Flame',
+  },
+  {
+    id: 'mat-3',
+    name: 'Brackets & Stands',
+    note: 'Corrosion-proof steel & chrome tubular',
+    tag: 'Mounting',
+    iconName: 'Layers',
+  },
+  {
+    id: 'mat-4',
+    name: 'Safety Signage',
+    note: 'Photoluminescent glow-in-dark signs',
+    tag: 'NFPA 101',
+    iconName: 'Compass',
+  },
+  {
+    id: 'mat-5',
+    name: 'Weatherproof Cabinets',
+    note: 'Outdoor powder-coated steel with break-glass',
+    tag: 'Protective',
+    iconName: 'Box',
+  },
+  {
+    id: 'mat-6',
+    name: 'Pressure Gauges',
+    note: 'Tested Bourdon tube dials with color zones',
+    tag: 'Calibration',
+    iconName: 'Gauge',
+  },
+  {
+    id: 'mat-7',
+    name: 'Inspection Seals & Pins',
+    note: 'Tamper-evident numbered pull seals',
+    tag: 'Audit Ready',
+    iconName: 'Lock',
+  },
+  {
+    id: 'mat-8',
+    name: 'Certified Refill Agents',
+    note: '90% MAP powder, pure CO₂ & 3% AFFF',
+    tag: 'OEM Refill',
+    iconName: 'Droplets',
+  },
+];
