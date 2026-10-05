@@ -153,7 +153,7 @@ export const Hero: React.FC = () => {
             <div className="p-4 rounded-xl bg-slate-900 text-white flex items-center justify-between gap-3 shadow-md">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full overflow-hidden border border-red-500/50 shrink-0">
-                  <img src="/Logo.png" alt="FireProtectSafety" className="w-full h-full object-cover" />
+                  <img src="images/Logo.png" alt="FireProtectSafety" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <div className="text-xs font-bold">Free On-Site Safety Survey</div>

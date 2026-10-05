@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ShieldAlert, Home, PhoneCall, ArrowLeft } from "lucide-react";
+import { ShieldAlert, Home, PhoneCall } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -10,7 +10,7 @@ export default function NotFound() {
 
       <div className="max-w-xl w-full text-center relative z-10 bg-slate-900/80 backdrop-blur-md border border-slate-800 p-8 sm:p-12 rounded-3xl shadow-2xl space-y-6">
         
-        {/* Animated Badge / Icon Container */}
+        {/* Animated Badge Container */}
         <div className="inline-flex items-center justify-center p-4 bg-red-500/10 border border-red-500/30 rounded-2xl text-red-500 mb-2 shadow-inner">
           <ShieldAlert className="w-16 h-16 animate-pulse" />
         </div>
@@ -24,7 +24,7 @@ export default function NotFound() {
             Safety Hazard Alert!
           </h1>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Aap jis page ko dhoond rahe hain wo move ho chuka hai ya exist nahi karta. Safety zones ke andar rehne ke liye niche diye gaye links use karein.
+            The page you are looking for has been moved, removed, or does not exist. Please use the navigation below to return to safety.
           </p>
         </div>
 
